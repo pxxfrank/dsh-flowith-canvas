@@ -1,0 +1,18 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Node
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+
+# Local run artifacts
+*.log
+
+# Local DSH install state people may copy in while testing
+cordis.yml
+*.backup-*

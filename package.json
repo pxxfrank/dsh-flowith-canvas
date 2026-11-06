@@ -1,0 +1,46 @@
+{
+  "name": "@local/flowith-canvas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Flowith-style node-based thinking canvas for the DeepSeek Harness Web UI: streamed cards, follow-up chains, fusion, planner runs, note cards, labelled connectors and custom links.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pxxfrank/dsh-flowith-canvas.git"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "flowith",
+    "thinking",
+    "canvas",
+    "llm"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  }
+}

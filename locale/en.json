@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Thinking Canvas",
+    "description": "A node-based board where every card is one question and its streamed analysis. Branch into follow-ups, fuse several cards into a synthesis, label a connector, or drag a card's port onto another card to draw your own labelled link; write your own notes and question them, and keep separate boards for separate lines of thinking."
+  }
+}
